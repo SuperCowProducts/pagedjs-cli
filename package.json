@@ -6,7 +6,7 @@
   "homepage": "https://pagedjs.org",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.coko.foundation/pagedjs/pagedjs.git"
+    "url": "https://github.com/pagedjs/pagedjs.git"
   },
   "type": "module",
   "main": "./src/index.js",
