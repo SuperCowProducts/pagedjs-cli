@@ -8,6 +8,13 @@ Render Html to PDFs using [Pagedjs](https://github.com/pagedjs/pagedjs-cli) and 
 npm install -g pagedjs-cli
 ```
 
+### ARM64
+
+```
+sudo dnf install -y chromium
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_PATH=/usr/bin/chromium-browser PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser npm install
+```
+
 ## Generating a PDF
 
 ```
