@@ -11,6 +11,7 @@ npm install -g pagedjs-cli
 ### ARM64
 
 ```
+rm -rf $HOME/.cache/puppeteer/*
 sudo dnf install -y chromium
 PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_PATH=/usr/bin/chromium-browser PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser npm install
 ```
