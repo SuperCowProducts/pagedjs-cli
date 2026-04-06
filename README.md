@@ -22,6 +22,12 @@ PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_PATH=/usr/bin/chromium-browser PUPP
 pagedjs-cli ./path/to/index.html -o result.pdf
 ```
 
+### ARM64
+
+```
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true CHROME_PATH=/usr/bin/chromium-browser PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser pagedjs-cli ./path/to/index.html -o result.pdf
+```
+
 ## Options
 
 ```
@@ -66,7 +72,7 @@ Link and build the JS
 ```
 npm install
 npm link
-npm install gulp
+npm install -g gulp
 
 gulp watch
 ```
