@@ -66,7 +66,7 @@ Link and build the JS
 ```
 npm install
 npm link
-npm install -g gulp
+npm install gulp
 
 gulp watch
 ```
